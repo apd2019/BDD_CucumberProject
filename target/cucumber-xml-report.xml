@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.171" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-15T08:54:38.733118400Z">
+<testcase classname="Automation Excercise Registration Flow Scenarios" name="Check if the user is navigated to sign up page on entering valid email" time="14.438">
+<system-out><![CDATA[
+Given The user is on Automation Excercise Demo website......................passed
+When The user clicks on sign up/login link..................................passed
+Then The user enters in valid username and the email ID.....................passed
+And Clicks on signup button.................................................passed
+Then verify the registration page url.......................................passed
+Then Close the browserr for parameter test..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Excercise Registration Flow Scenarios" name="Check if the user is thrown with Error message on entering exisitng email Id" time="9.837">
+<system-out><![CDATA[
+Given The user is on Automation Excercise Demo website......................passed
+When The user clicks on sign up/login link..................................passed
+Then The user enters existing username and email Id.........................passed
+And Clicks on signup button.................................................passed
+Then Check if Email Id already existing message is coming up................passed
+And Close the browserr for parameter test...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Excercise Registration Flow Scenarios" name="Check if the Signup section is able to validate with different data" time="17.211">
+<system-out><![CDATA[
+Given The user is on Automation Excercise Demo website......................passed
+When The user clicks on sign up/login link..................................passed
+When The user clicks on Signup Login button with different data.............passed
+And Clicks on signup button.................................................passed
+And Close the browserr for parameter test...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
